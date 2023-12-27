@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  /* font-family: 'Teko', sans-serif; */
+}
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(rgba(4, 4, 4, 0.8), rgba(182, 90, 90, 0.7)),
+    url(emil-widlund-xrbbXIXAWY0-unsplash.jpg) no-repeat center center/cover;
+}
+.container {
+  width: 550px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  color: aliceblue;
+  width: 80%;
+  font-size: 20px;
+  background-color: black;
+  padding: 5px;
+  border: solid 2px white;
+  border-radius: 6px;
+}
+.main {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(190, 215, 215);
+  border-radius: 5px;
+  padding: 50px 40px;
+  margin-top: 20px;
+}
+.text-area {
+  width: 100%;
+  font-size: 25px;
+  line-height: 1.7;
+}
+.person {
+  font-size: 25px;
+  padding: 10px;
+  margin-top: 20px;
+  color: brown;
+}
+.button-area button {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
